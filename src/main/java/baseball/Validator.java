@@ -18,5 +18,6 @@ public class Validator {
         if (uniqueDigits.size() != 3) {  // 고유한 숫자의 개수확인
             throw new IllegalArgumentException();
         }
+
     }
 }
