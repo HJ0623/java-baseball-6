@@ -57,8 +57,7 @@
 6.1을 누르면 재시작,2를 누르면 아예 종료를 하는 문구 출력 [o]
 
 
-GenerateNumber: 숫자 랜덤으로 생성 HashSet사용
+CreateNumber: 숫자 랜덤으로 생성 HashSet사용
 Monitor:게임 기본화면 (숫자야구시작 출력,숫자 입력,재시작,스트라이크 유무 판별출력)
-Count:스트라이크,볼 판별할 수 있는 기능
+CountBall:스트라이크,볼 판별할 수 있는 기능
 Exception:사용자가 잘못된 값을 입력할 경우 IllegalArgumentException을 발생시킨 후 애플리케이션은 종료되어야 한다.(같은 숫자 입력,3자리가 아닌 숫자 입력)
-이런식으로 구현되게 코드를 짜줄래
