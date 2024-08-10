@@ -4,7 +4,7 @@ import java.util.Scanner;
 class Monitor {
     private static final Scanner scanner = new Scanner(System.in);
     private static int[] computerNumber;
-    private static final String RESTART= "1";
+    private static final String RESTART= "1"; //상수 설정
     private static final String EXIT="2";
 
     public static void startGame() {
